@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+:root{
+    --nav: #394e4b;
+    --bg1: #829191;
+    --bg2: #949B96;
+}
+
+nav{
+    list-style: none;
+    background-color:rgba(0, 0, 0, 0.76) ;
+    width: 100%;
+} 
+
+nav ul li {
+    display: inline-block;
+    padding: 11px 80px;
+    font-size: 32px;
+    color: white;
+    font:bold
+    
+}
+
+nav ul li a:hover{
+    color: #468C98;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+}
+
+.logo{
+    font-size: 45px;
+    color:#468C98 ;
+}
+
+#home{
+    height: 91vh;
+    width: 100%;
+    background-image:linear-gradient(to left top, var(--nav), #468C98,var(--bg1))
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 30%;
+}
+
+.UserName{
+    padding: 50px 0px 10px;
+}
+
+.Password{
+padding: 50px 0px 50px;
+}
+
+input{
+    padding: 7px 50px;
+}
+
+.forget{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.forget:hover{
+    color: #468C98;
+}
+
+.submit{
+    border-radius: 40px;
+    margin: 0px 0px 45px;
+    padding: 10px 50px;
+}
+.submit:hover{
+    background-color: #468C98;
+    transition: 1s;
+}
